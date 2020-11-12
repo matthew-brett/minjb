@@ -4,15 +4,3 @@
 title: My sample book
 author: The Jupyter Book Community
 logo: logo.png
-
-latex:
-  latex_documents:
-    targetname: book.tex
-
-sphinx:
-  config:
-
-    nb_custom_formats:
-      .Rmd:
-        - jupytext.reads
-        - fmt: Rmd
